@@ -1,0 +1,19 @@
+---
+title: "Welcome"
+output: html_document
+---
+
+## About me
+
+Welcome to my personal website!
+
+I am learning data science for public health through P8105 at Columbia University.
+
+## About this website
+
+This website introduces my academic and professional background and presents an interactive data dashboard.
+
+## Links
+
+- [My GitHub](https://github.com/May-ria404)
+- [P8105 course website](https://p8105.com/)
