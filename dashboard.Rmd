@@ -1,0 +1,52 @@
+
+---
+title: "Instacart Shopping Patterns"
+output:
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE
+)
+
+data("instacart", package = "p8105.datasets")
+
+department_counts =
+  instacart |>
+  count(department, name = "product_records") |>
+  mutate(
+    department = fct_reorder(department, product_records)
+  )
+```
+
+Column
+-----------------------------------------------------------------------
+
+### Product records by department
+
+```{r}
+department_counts |>
+  plot_ly(
+    x = ~product_records,
+    y = ~department,
+    type = "bar",
+    orientation = "h"
+  ) |>
+  layout(
+    xaxis = list(title = "Number of product records"),
+    yaxis = list(title = "", automargin = TRUE)
+  )
+```
+
+
+
+
