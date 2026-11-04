@@ -1,0 +1,10 @@
+name: "my-personal-website"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "GitHub"
+      href: https://github.com/May-ria404
+output:
+  html_document:
+    theme: flatly

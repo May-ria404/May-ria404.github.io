@@ -1,6 +1,5 @@
 ---
 title: "Welcome"
-output: html_document
 ---
 
 ## About me
