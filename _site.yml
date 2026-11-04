@@ -3,8 +3,14 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
+    - text: "Resume"
+      href: resume.html
+    - text: "Email"
+      href: mailto:lm4199@cumc.columbia.edu
     - text: "GitHub"
       href: https://github.com/May-ria404
 output:
   html_document:
     theme: flatly
+    
+    

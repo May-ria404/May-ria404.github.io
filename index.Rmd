@@ -4,9 +4,9 @@ title: "Welcome"
 
 ## About me
 
-Welcome to my personal website!
+Hi, I’m Luyao Mao, an MS student in Biostatistics at Columbia University’s Mailman School of Public Health.
 
-I am learning data science for public health through P8105 at Columbia University.
+I earned my BS in Biological Science and Technology from Lanzhou University. My previous research involved animal behavior and colorectal cancer metastasis, and I am now developing my skills in statistical analysis and data visualization.
 
 ## About this website
 

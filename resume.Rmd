@@ -1,0 +1,59 @@
+
+---
+title: "Luyao Mao"
+---
+
+# Resume
+
+## Education
+
+### Columbia University — Mailman School of Public Health
+**Master of Science in Biostatistics | Fall 2026–Present**
+
+### Lanzhou University — School of Life Sciences
+**Bachelor of Science in Biological Science and Technology | September 2022–June 2026**
+
+## Research Experience
+
+### Colorectal Cancer Metastasis — Lanzhou University
+**Undergraduate Graduation Research | November 2025–May 2026**
+
+- Investigated the mechanical characteristics and regulatory mechanisms of colorectal cancer metastasis under the supervision of Professor Bo Cheng.
+- Used cell culture, migration assays, gene editing, immunoblotting, and fluorescence imaging.
+- Used ImageJ for image quantification and R for statistical analysis.
+
+### Evolutionary Biology
+**April–May 2025**
+
+- Studied evolutionary biology under the instruction of Professor Dustin Brisson.
+- Conducted a preliminary literature-based study of fish adaptations to extreme deep-sea environments.
+
+### Cricket Behavior Research — Lanzhou University
+**September 2023–July 2024**
+
+- Investigated female mate choice and male calling songs under the supervision of Professor Bo Du.
+- Collected and processed cricket song recordings and recorded behavioral observations.
+- Used SPSS for statistical analysis and contributed to research reporting and manuscript revision.
+
+## Selected Publications
+
+- Mao, L. (2025). Adaptation of Fish to the Extreme Environment in the Deep Sea. Proceedings of ICBioMed 2025 Symposium: Computational Modelling and Simulation for Biology and Medicine. DOI: 10.54254/2753-8818/2025.LD25430.
+- Jia, B., Xu, R., Guo, X., Sun, N.-N., He, Z., Mao, L., and Du, B. (2025). The Relationship Between Female Mate Choice and Male Calling Songs in the Chinese Cricket Is Modulated by the Intra-Sexual Competition Among Females. Ethology. DOI: 10.1111/eth.70012.
+
+## Leadership Experience
+
+### Student Union Publicity Department
+**Member and Director | September 2022–June 2024**
+
+- Planned publicity for school activities and events.
+- Created promotional images and videos and helped maintain student media platforms.
+
+## Skills
+
+- **Data analysis:** R, SPSS, Origin, and ImageJ.
+- **Laboratory methods:** Cell culture, cell migration assays, immunoblotting, immunofluorescence, and CRISPR-Cas9 gene editing.
+
+## Contact
+
+- [Email](mailto:lm4199@cumc.columbia.edu)
+- [GitHub](https://github.com/May-ria404)
