@@ -93,3 +93,5 @@ order_sizes |>
     yaxis = list(title = "Number of products per order")
   )
 ```
+
+> [Back to home](index.html)
