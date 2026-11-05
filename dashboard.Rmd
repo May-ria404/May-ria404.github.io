@@ -4,7 +4,7 @@ title: "Instacart Shopping Patterns"
 output:
   flexdashboard::flex_dashboard:
     orientation: columns
-    vertical_layout: fill
+    vertical_layout: scroll
 ---
 
 ```{r setup, include=FALSE}
@@ -26,12 +26,28 @@ department_counts =
   mutate(
     department = fct_reorder(department, product_records)
   )
+
+order_records =
+  instacart |>
+  distinct(order_id, order_hour_of_day, order_dow)
+
+hourly_orders =
+  order_records |>
+  count(order_hour_of_day, name = "num_orders") |>
+  arrange(order_hour_of_day)
+
+order_sizes =
+  instacart |>
+  count(order_id, order_dow, name = "num_products") |>
+  mutate(
+    order_dow = factor(order_dow, levels = 0:6)
+  )
 ```
 
 Column
 -----------------------------------------------------------------------
 
-### Product records by department
+### Product records by department {data-height=600}
 
 ```{r}
 department_counts |>
@@ -47,6 +63,33 @@ department_counts |>
   )
 ```
 
+### Orders by hour of day {data-height=450}
 
+```{r}
+hourly_orders |>
+  plot_ly(
+    x = ~order_hour_of_day,
+    y = ~num_orders,
+    type = "scatter",
+    mode = "lines+markers"
+  ) |>
+  layout(
+    xaxis = list(title = "Hour of day", dtick = 6),
+    yaxis = list(title = "Number of orders")
+  )
+```
 
+### Products per order by day of week {data-height=600}
 
+```{r}
+order_sizes |>
+  plot_ly(
+    x = ~order_dow,
+    y = ~num_products,
+    type = "box"
+  ) |>
+  layout(
+    xaxis = list(title = "Day of week (dataset code)"),
+    yaxis = list(title = "Number of products per order")
+  )
+```
